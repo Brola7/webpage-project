@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .header-links {
     display:flex;
@@ -55,7 +55,7 @@ li {
     align-items: center;
 }
 .upper-image {
-    width: 350px;
+    width: 400px;
     height: auto;
 }
 .text {
@@ -63,11 +63,103 @@ li {
     flex-direction: column;
     width: 450px;
 }
-button {
+.hero-button {
     width: 100px;
     height: 25px;
     border-radius: 5px;
     background-color: #3882f6;
     border: #3882f6 2px;
     color: #f9faf8;
+}
+.hero button {
+    margin-top: 10px
+}
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px 0;
+}
+.illustrations {
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+}
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.quote-container {
+    width:700px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:100;
+}
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    color:#1f2937;
+}
+.action {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin-right: 0;
+}
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 30px 70px;
+    border: #3882f6 2px;
+    border-radius: 10px;
+    width: 600px;
+}
+.action-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    height: 50px;
+    font-size: 14px;
+}
+.action-button {
+    width: 100px;
+    height: 25px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-style:solid;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.action-title {
+    font-size: larger;
+}
+.action-subtext {
+    color: #e5e7eb;
+    font-size: 12px;
 }
